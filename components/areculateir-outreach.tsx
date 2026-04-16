@@ -96,15 +96,18 @@ export default function AreculateirOutreach({
   return (
     <div className="bg-[#0a0a0a] min-h-screen font-mono text-[#e0e0e0] px-4 py-8 pb-16 box-border">
       {/* Logo Section */}
-      <div className="flex flex-col items-center mb-8">
+      <div className="flex flex-col items-center text-center w-full mb-8">
         <Image
           src={logoSrc}
           alt="Areculateir Outreach"
           width={80}
           height={80}
-          className="rounded-[18px]"
+          className="rounded-[18px] block mx-auto"
         />
-        <div className="font-sans font-[800] text-[1.1rem] tracking-[0.18em] text-[#c94a1a] uppercase mt-3">
+        <div
+          className="text-[1.1rem] tracking-[0.18em] text-[#c94a1a] uppercase mt-3"
+          style={{ fontFamily: "'PPEditorialNew', serif", fontWeight: 200, fontStyle: "italic" }}
+        >
           Areculateir Outreach
         </div>
       </div>

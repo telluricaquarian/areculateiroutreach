@@ -133,7 +133,7 @@ export default function AreculateirOutreach({
       {/* Step 01 */}
       <Section stepNum="Step 01" title="Define your ICP before touching any tool">
         <Item marker="›">
-          <strong className="text-white font-bold">Target:</strong> Local AU service businesses — trades, med-aesthetics, law, fitness
+          <strong className="text-white font-bold">Target:</strong> Service businesses across Melbourne, Brisbane, Perth, Adelaide, Gold Coast, Canberra, Newcastle, Wollongong, Hobart, Darwin, Sunshine Coast, and Geelong — trades, med-aesthetics, law, fitness
         </Item>
         <Item marker="›">
           <strong className="text-white font-bold">Pain:</strong> Outdated or nonexistent site costing them jobs and credibility

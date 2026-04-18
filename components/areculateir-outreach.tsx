@@ -95,8 +95,8 @@ export default function AreculateirOutreach({
 
   return (
     <div className="bg-[#0a0a0a] min-h-screen font-mono text-[#e0e0e0] px-4 py-8 pb-16 box-border">
-      {/* Logo Section */}
-      <div className="flex flex-col items-center text-center w-full mb-8">
+      {/* Logo Section — mobile only; sidebar carries brand identity on desktop */}
+      <div className="md:hidden flex flex-col items-center text-center w-full mb-8">
         <Image
           src={logoSrc}
           alt="Areculateir Outreach"
